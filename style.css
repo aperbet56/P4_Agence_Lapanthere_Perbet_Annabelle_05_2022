@@ -1014,8 +1014,23 @@ h4 {
     .voffset-lg {
         margin-top: 30px;
     }
+    .col-md-offset-2 {
+        margin-left: 2%;
+    }
+    .row h2 {
+        margin: 0 20px;
+    }
     form {
-        padding: 5px;
+        padding: 12px;
+    }
+    .col-sm-6 a {
+        margin: 10px 12px;
+    }
+    .col-sm-6 p {
+        margin-top: 10px;
+    }
+    .social span {
+        padding: 12px 0;
     }
     .close-lightbox {
         display: inline-block;
