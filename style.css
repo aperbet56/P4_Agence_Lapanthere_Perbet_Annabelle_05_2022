@@ -744,6 +744,18 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.orange {
+    color: #eea684!important;
+}
+
+.black {
+    color: #000000!important;
+}
+
+.grey {
+    color: #373737!important;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
     width: 100%;
@@ -759,7 +771,8 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    /*background-color: rgba(165, 147, 99, 0.7);*/
+    background-color: #2b2b2bb0;
     padding: 40px 40px 40px 40px;
 }
 
@@ -781,12 +794,12 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #fff!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #1f1f1f!important;
 }
 
 .btn-atomic-tangerine:hover {
