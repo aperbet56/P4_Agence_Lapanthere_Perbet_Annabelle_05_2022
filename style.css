@@ -10,7 +10,6 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
 }
 
 a:hover {
@@ -123,7 +122,7 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
+/*.d-bloc a .icon-md,*/
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -460,10 +459,6 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
-button {
-    outline: none!important;
-}
-
 .btn-rd {
     border-radius: 40px;
 }
@@ -758,7 +753,6 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
-    width: 100%;
 }
 
 .portfolio-row {
@@ -1029,6 +1023,10 @@ h4 {
     }
     .col-md-offset-2 {
         margin-left: 2%;
+    }
+    .portfolio-thumb {
+        margin: auto;
+        width: auto;
     }
     .row h2 {
         margin: 0 20px;
