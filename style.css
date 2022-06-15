@@ -90,7 +90,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper-1.png");
+    background: url("img/texture-paper_1.webp");
     background-size: 280px 280px;
 }
 
@@ -122,7 +122,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-/*.d-bloc a .icon-md,*/
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -139,7 +138,6 @@ a:hover {
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
@@ -150,6 +148,10 @@ a:hover {
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
+}
+
+.d-bloc a:hover .icon-md {
+    color: #1f1f1f!important;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -783,7 +785,6 @@ h4 {
 }
 
 .tc-white {
-    /*color: #fff!important;*/
     color: #ffc398f2!important;
 }
 
@@ -819,11 +820,11 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg-1.png");
+    background-image: url("img/dots-bg_1.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg-1.png");
+    background-image: url("img/lines-h2-bg_1.webp");
 }
 
 .bg-banniere {
@@ -1023,12 +1024,15 @@ h4 {
     .row h2 {
         margin: 0 20px;
     }
+    .portfolio-thumb {
+        margin: auto;
+        width: 320px;
+    }
     form {
         padding: 12px;
     }
     .col-sm-6 a {
-        margin: auto;
-        width: 320px;
+        margin: 10px 12px;
     }
     .col-sm-6 p {
         margin-top: 10px;
